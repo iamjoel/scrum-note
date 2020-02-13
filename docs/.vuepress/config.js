@@ -17,6 +17,32 @@ module.exports = {
         path: '/',
       },
       {
+        title: '内容',
+        collapsable: false,
+        children: [
+          {
+            title: '团队规模',
+            path: '/content/group-num',
+          },
+          {
+            title: '每日站会',
+            path: '/content/stand-meeting',
+          },
+          {
+            title: '工作量估算',
+            path: '/content/evaluate-project',
+          },
+          {
+            title: '控制在制品数量',
+            path: '/content/progress-num',
+          },
+          {
+            title: '关于加班',
+            path: '/content/work-overtime',
+          },
+        ]
+      },
+      {
         title: '术语',
         collapsable: false,
         children: [
@@ -29,13 +55,11 @@ module.exports = {
             path: '/term/story-point',
           }
         ]
-    },
+      },
       {
         title: '推荐资源',
         path: '/resource',
       },
-
-    
     ]
 
   }

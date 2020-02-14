@@ -21,6 +21,10 @@ module.exports = {
         collapsable: false,
         children: [
           {
+            title: '敏捷的完整流程',
+            path: '/content/',
+          },
+          {
             title: '团队',
             children: [
               {
@@ -57,7 +61,7 @@ module.exports = {
           },
           {
             title: '控制在制品数量',
-            path: '/content/progress-num',
+            path: '/content/wip-num',
           },
           {
             title: '关于加班',
@@ -80,6 +84,18 @@ module.exports = {
           {
             title: '冲刺',
             path: '/term/sprint',
+          },
+          {
+            title: '看板',
+            path: '/term/kanban',
+          },
+          {
+            title: '在制品',
+            path: '/term/wip',
+          },
+          {
+            title: '燃尽图',
+            path: '/term/burn-down-chart/',
           },
         ]
       },

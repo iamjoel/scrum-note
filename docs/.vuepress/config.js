@@ -21,12 +21,35 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: '团队规模',
-            path: '/content/group-num',
+            title: '团队',
+            children: [
+              {
+                title: '团队规模',
+                path: '/content/group/scale',
+              },
+              {
+                title: '团队角色',
+                path: '/content/group/role',
+              },
+            ]
           },
           {
-            title: '每日站会',
-            path: '/content/stand-meeting',
+            title: '会议',
+            collapsable: false,
+            children: [
+              {
+                title: '冲刺规划会',
+                path: '/content/meeting/sprint',
+              },
+              {
+                title: '每日站会',
+                path: '/content/meeting/stand-up',
+              },
+              {
+                title: '冲刺回顾会议',
+                path: '/content/meeting/sprint-review',
+              },
+            ]
           },
           {
             title: '工作量估算',
@@ -53,7 +76,11 @@ module.exports = {
           {
             title: '故事点',
             path: '/term/story-point',
-          }
+          },
+          {
+            title: '冲刺',
+            path: '/term/sprint',
+          },
         ]
       },
       {
